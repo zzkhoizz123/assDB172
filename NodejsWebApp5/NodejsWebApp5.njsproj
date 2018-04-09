@@ -32,24 +32,26 @@
     <Compile Include="views\Login\js\index.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
-    <Content Include="views\Home.ejs" />
-    <Content Include="views\Image\first_pic.jpg" />
+    <Content Include="views\Home\Home.ejs" />
+    <Content Include="views\Home\Image\first_pic.jpg" />
     <Content Include="views\Login\css\style.css" />
     <Content Include="views\Login\index.html" />
     <Content Include="views\Login\scss\style.scss" />
-    <Content Include="views\Logo\BKEdu_logo.png" />
-    <Content Include="views\profile.ejs" />
-    <Content Include="views\style.css" />
-    <Content Include="views\theme-black.css" />
+    <Content Include="views\Home\Logo\BKEdu_logo.png" />
+    <Content Include="views\Home\profile.ejs" />
+    <Content Include="views\Home\css\style.css" />
+    <Content Include="views\Home\css\theme-black.css" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="views\" />
-    <Folder Include="views\Image\" />
+    <Folder Include="views\Home\Image\" />
+    <Folder Include="views\Home\css\" />
     <Folder Include="views\Login\" />
     <Folder Include="views\Login\css\" />
     <Folder Include="views\Login\js\" />
     <Folder Include="views\Login\scss\" />
-    <Folder Include="views\Logo\" />
+    <Folder Include="views\Home\Logo\" />
+    <Folder Include="views\Home\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
