@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-web-app5",
+  "version": "0.0.0",
+  "description": "NodejsWebApp5",
+  "main": "server.js",
+  "author": {
+    "name": "Dell"
+  },
+  "dependencies": {
+    "ejs": "^2.5.8",
+    "express": "^4.16.3"
+  }
+}
